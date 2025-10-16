@@ -87,7 +87,9 @@ const registerSchema = z.object({
                                 className="w-full"
                                 type="button"
                                 disabled={isPending}
+                               
                             >
+                             <Image src="/logos/google.svg" alt="Google" width={20} height={20} />
                                 Continue with Google
                             </Button>
                         </div>
@@ -98,8 +100,9 @@ const registerSchema = z.object({
                                 type="button"
                                 disabled={isPending}
                             >
-                                Continue with Microsoft
-                            </Button>
+                            <Image src="/logos/github.svg" alt="GitHub" width={20} height={20} />
+                                Continue with Github  
+                                </Button>
                         </div>
                     <div className="flex flex-col gap-6">
                         <FormField
